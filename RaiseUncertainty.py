@@ -9,7 +9,7 @@ badLines = pd.read_csv("BadLines.txt", delim_whitespace=True)
 
 def raiseUncertainty(row, badLines):
     if len(badLines[badLines["Source"] == row["Source"]]) != 0:
-        print("Bad line matched")
+        row["UNC"] *= 10
     return row
 
 df = df.parallel_apply(lambda x: raiseUncertainty(x, badLines), result_type="expand", axis=1)
