@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Mixture Precision="10" Version="Pgopher 10.0.505 13 Feb 2017 17:57 epel-6-x86_64 64 bit (fpc 3.1.1 x86_64-Linux)">
+  <Species Name="Species" Jmax="120">
+    <SymmetricMolecule Name="SymmetricTop" PointGroup="D3h" wt_A1prime_A1dprime_="30" wt_A2prime_A2dprime_="4" wt_Eprime_Edprime_="24">
+      <Parameter Name="AssumedOrigin" Float="true"/>
+      <SymmetricManifold Name="Ground" Initial="True">
+        <SymmetricTop Name="v=0">
+          <Parameter Name="B" Value="5.1427536725"/>
+          <Parameter Name="C" Value="3.1381426141"/>
+          <Parameter Name="DJ" Value="0.0001971894609"/>
+          <Parameter Name="DJK" Value="-0.000349572769"/>
+          <Parameter Name="DK" Value="0.00031293222"/>
+          <Parameter Name="HJ" Value="2.318872E-8"/>
+          <Parameter Name="HJK" Value="-7.5448937E-8"/>
+          <Parameter Name="HKJ" Value="8.5957053E-8"/>
+          <Parameter Name="HK" Value="8.9891174E-7"/>
+          <Parameter Name="LJ" Value="-4.249824E-12"/>
+          <Parameter Name="LJJK" Value="1.5267978E-11"/>
+          <Parameter Name="LJK" Value="-1.4309414E-10"/>
+        </SymmetricTop>
+        <SymmetricTop Name="v=0 a" Symmetry="A2&quot;">
+          <Parameter Name="Origin" Value="0.05308907255"/>
+          <Parameter Name="B" Value="5.14257993618"/>
+          <Parameter Name="C" Value="3.1382305349"/>
+          <Parameter Name="DJ" Value="0.0001968867002"/>
+          <Parameter Name="DJK" Value="-0.000348678176"/>
+          <Parameter Name="DK" Value="0.000312274917"/>
+          <Parameter Name="HJ" Value="2.281802E-8"/>
+          <Parameter Name="HJK" Value="-7.384646E-8"/>
+          <Parameter Name="HKJ" Value="8.3661731E-8"/>
+          <Parameter Name="HK" Value="9.0000908E-7"/>
+          <Parameter Name="LJ" Value="-3.935302E-12"/>
+          <Parameter Name="LJJK" Value="1.3484109E-11"/>
+          <Parameter Name="LJK" Value="-1.040315E-11"/>
+          <Parameter Name="LKKJ" Value="-3.880902E-12"/>
+          <Parameter Name="LK" Value="1.446889E-12"/>
+        </SymmetricTop>
+      </SymmetricManifold>
+    </SymmetricMolecule>
+  </Species>
+  <Parameter Name="Fmin" Value="1440"/>
+  <Parameter Name="Fmax" Value="1560"/>
+  <FormSettings Name="StatesWindow" Blocked="True"/>
+</Mixture>
