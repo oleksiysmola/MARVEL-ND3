@@ -1,4 +1,4 @@
-         NU          UNC  JU  KU  v1U  v2U  v4U  l4U  SU  JL  KL  v1L  v2U.1  v4L  l4L  SL           Source
+         NU          UNC  JU  KU  v1U  v2U  v4U  l4U  SU  JL  KL  v1L    v2L  v4L  l4L  SL           Source
   10.337468 3.340000e-06   1   0    0    0    0    0   1   0   0    0      0    0    0   0       23CaDiFu.1
   10.231635 6.670000e-06   1   0    0    0    0    0   0   0   0    0      0    0    0   1       23CaDiFu.2
   30.848680 5.656900e-04   2   0    0    0    0    0   1   0   0    0      0    0    0   1       23CaDiFu.3
